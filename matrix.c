@@ -5,11 +5,11 @@ int main()
     int a[10][10], b[10][10], c[10][10], i, j, k, m, n, p, q, sum, choice;
     do
     {
-printf("1.Enter 1st \n 2.Enter 2nd \n3. Display 1st \n 4.Display 2nd \n5. Add \n6. Subtract\n7. Multiply\n 8.Result");
-printf("Enter the choice");
-scanf("%d",&choice);
-switch(choice)
-{
+        printf("1.Enter 1st \n 2.Enter 2nd \n3. Display 1st \n 4.Display 2nd \n5. Add \n6. Subtract\n7. Multiply\n 8.Result");
+        printf("Enter the choice");
+        scanf("%d", &choice);
+        switch (choice)
+        {
         case 1:
             printf("Enter m and n:");
             scanf("%d %d", &m, &n);
@@ -104,7 +104,7 @@ switch(choice)
             break;
         default:
             printf("Not Valid");
-}
+        }
     } while (choice != 9);
     return 0;
 }
